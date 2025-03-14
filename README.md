@@ -5,7 +5,7 @@ This is a project to run inference of pretrained YOLOV1 models on pytorch.
 
 ![Image](https://github.com/user-attachments/assets/a5313a9b-37c8-46f0-b3fb-13f971233ac3)
 ## 🚀 Quick Start
-## Requirements
+### Requirements
 I recommend you to use python >= 3.9 to run project.
 
 ### **1️⃣ Clone the Project**
