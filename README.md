@@ -5,6 +5,7 @@ This is a project to run inference of pretrained YOLOV1 models on pytorch.
 
 ![Image](https://github.com/user-attachments/assets/a5313a9b-37c8-46f0-b3fb-13f971233ac3)
 ## 🚀 Quick Start
+
 ### Requirements
 I recommend you to use python >= 3.9 to run project.
 
@@ -43,6 +44,7 @@ Move pretrained model to ```pretrained``` folder.
 ### **4️⃣ Run Inference**
 Make sure you have put the images you need to inference into the ```images``` folder.
 ```bash
-  python main.py --model {vgg19, resnet18, resnet50, mobilenetv3-large, mobilenetv3-small, squeezenet} --conf {default 0.4}
+  python main.py --model {vgg19, resnet18, resnet50, mobilenetv3-large, mobilenetv3-small, squeezenet} 
+                 --conf {default 0.4}
 ```
 The image inference results will be in the ```results`` folder.
