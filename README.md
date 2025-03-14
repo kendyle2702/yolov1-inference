@@ -47,4 +47,4 @@ Make sure you have put the images you need to inference into the ```images``` fo
   python main.py --model {vgg19, resnet18, resnet50, mobilenetv3-large, mobilenetv3-small, squeezenet} 
                  --conf {default 0.4}
 ```
-The image inference results will be in the ```results`` folder.
+The image inference results will be in the ```results``` folder.
